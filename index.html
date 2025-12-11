@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Palm Roast</title>
+    <style>
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding-top: 100px;
+        }
+
+        .hero {
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            color: black;
+            width: 60%;
+            justify-self: center;
+            align-self: center;
+            margin-top: 200px;
+            background-color: burlywood;
+            gap: 30px;
+            display: flex;
+            border-radius: 10px;
+        }
+
+        .herotext h1 {
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .herotext h3 {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .nav {
+            position: fixed;
+            width: 100%;
+            color: black;
+            background-color: burlywood;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 8px;
+            display: flex;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+            z-index: 100;
+            top: 0;
+        }
+
+        .links a {
+            color: black;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+            padding-right: 20px;
+            margin-right: 8px;
+        }
+
+        body {
+            background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/23/64/23/13/exterier.jpg');
+            background-size: cover;
+        }
+
+        .imghero img {
+            flex: 1 1 260px;
+            width: 350px;
+        }
+
+        button {
+            color: burlywood;
+            background-color: aliceblue;
+            border-radius: 13px;
+            font-weight: bold;
+            font-family: serif;
+            border: none;
+            font-size: 12px;
+        }
+
+        .menu {
+            background-color: burlywood;
+            border-radius: 10px;
+            max-width: 1100px;
+            justify-self: center;
+            width: 60%;
+            margin: 20px auto 40px;
+            padding: 20px 25px;
+        }
+
+        .menubox {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin: 10px;
+        }
+
+        .items {
+            background-color: black;
+            color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="nav">
+            <div class="logo">Palm Roast </div>
+            <div class="links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+        </div>
+        <section id="home" class="hero">
+            <div class="herotext">
+                <h1>Palm Roast</h1>
+                <h5>Welcome to Palm Roast — where every cup carries the warmth of Dubai’s sun and the richness of
+                    hand‑picked beans. Sip, savor, and stay awhile.</h5>
+                <div class="button">
+                    <button>View menu</button>
+                    <button>Our cafes</button>
+                </div>
+            </div>
+            <div class="imghero">
+                <img src="https://meinka.de/wp-content/uploads/2019/01/cafe-pixabay.jpg" alt="Image of coffee and food">
+            </div>
+        </section>
+        <section id="menu" class="menu">
+            <h3>Menu</h3>
+            <p>This is our menu.</p>
+            <div class="menubox">
+                <div class="items">
+                    <h4> Caffe latte</h4>
+                    <p>This is a coffee<br> Price: 20Dhs</p>
+                </div>
+                <div class="items">
+                    <h4> Caffe latte</h4>
+                    <p>This is a coffee<br> Price: 20Dhs</p>
+                </div>
+                <div class="items">
+                    <h4> Caffe latte</h4>
+                    <p>This is a coffee<br> Price: 20Dhs</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
